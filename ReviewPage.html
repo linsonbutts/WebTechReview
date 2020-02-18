@@ -2,10 +2,75 @@
 <html>
     <head>
         <title>Web Tech Review</title>
-        <link rel='stylesheet' type='text/css' media='screen' href='ProjectStyle.css'>
+        <style>
+            .navigation{
+color: white;
+background-color: rebeccapurple;
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+text-align: center;
+display: block;
+border: solid 15px blueviolet;
+margin: 20px;
+border-radius: 10px;
+padding: 15px;
+}
+b{
+    font-style: bold;
+    text-align: center;
+    border: solid plum 5px;
+    background-color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 10px;
+    border-radius: 2px;
+    display: block;
+    color: blueviolet;
+    padding: 5px;
+}
+a{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    text-align: center;
+}
+.details{
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border: white 3px solid;
+    margin: 3px;
+    color: white;
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: 5px;
+    border-radius: 3px;
+}
+.content{
+        color: white;
+        background-color: blueviolet;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        text-align: center;
+        display: block;
+        border: solid 10px rebeccapurple;
+        margin: 10px;
+        border-radius: 5px;
+        padding: 10px;
+}
+.h2{
+    position: right;
+    display: block;
+}
+        </style>
     </head>
+    <header>
+    <h1 class="content">
+        Web Tech Review
+    </h1>
+    <h2>
+        <b>By: Jasmine Holloway (JH) and Linson Butts (LB) </b>
+    </h2>
+    </header>
     <body>
-        <p>This page is meant to be used as a tool for reviewing
+        <p class="content">This page is meant to be used as a tool for reviewing
             various Web Design concepts and HTML tags to assist
             in the development of your own web pages.
         </p>
@@ -60,28 +125,83 @@
                 <li><a href="#PNGinfo">PNG</a></li>
             </ul>
 
-            <a href="#index">Return to the Top</a>
+            
 
         </div>
 
         <div class="content">
-            <p id="XMLinfo" class="details">About XML</p>
-            <p id="DTDinfo" class="details">DTD</p>
-            <p id="XSLTinfo" class="details">DTD</p>
-            <p id="HTMLinfo" class="details">DTD</p>
-            <p id="CSSinfo" class="details">DTD</p>
-            <p id="WebFinfo" class="details">DTD</p>
-            <p id="JavaScriptinfo" class="details">DTD</p>
-            <p id="DOMinfo" class="details">hi</p>
-            <p id="DHTMLinfo" class="details">hi</p>
-            <p id="PHPinfo" class="details">hi</p>
-            <p id="ASP.ASPNETinfo" class="details">hi</p>
-            <p id="JSPinfo" class="details">hi</p>
-            <p id="Bootstrapinfo" class="details">hi</p>
-            <p id="MySQLinfo" class="details">hi</p>
-            <p id="HTTP(S)info" class="details">hi</p>
-            <p id="UDPinfo" class="details">hi</p>
-            <p id="TCPinfo" class="details">hi</p>
+            <p id="XMLinfo" class="details"> 
+			      <b>XML:</b> XML stands for extensive markup language which is
+				  used to describe data
+			</p>
+            <p id="DTDinfo" class="details">
+			                <b>DTD:</b> Dtd stands for document type definition which defines the tags and 
+							elements used in xml or html
+			</p>
+            <p id="XSLTinfo" class="details">
+				<b>XSLT:</b> XSLT stands for Extensible Stylesheet Language Transformations which is a language for transforming XML documents into other XML documents,
+				or other formats such as HTML for web pages, plain text or XSL Formatting Objects, which may subsequently be converted to other formats, such as PDF, 
+				PostScript and PNG.
+			</p>
+			
+            <p id="HTMLinfo" class="details">
+				<b>HTML:</b>Html stands for hypertext Markup Language which is the standard markup language for documents designed 
+				to be displayed in a web browser.
+
+			</p>
+            <p id="CSSinfo" class="details">
+				<b>CSS:</b> Css stands for Cascading Style Sheet which are used to format the layout of Web pages
+
+			</p>
+            <p id="WebFinfo" class="details">
+				<b>Web Forms:</b> Web forms are an online page that allows for user input. It is an interactive page that mimics a paper document or form, 
+				where users fill out particular fields. 	
+			</p>
+            <p id="JavaScriptinfo" class="details">
+				<b>JavaScript:</b> JavaScript is a programming language commonly used in web development.
+			</p>
+            <p id="DOMinfo" class="details">
+				<b>DOM:</b> The Document Object Model (DOM) is an application programming interface (API) for HTML and XML documents. It defines the 
+				logical structure of documents and the way a document is accessed and manipulated
+			</p>
+            <p id="DHTMLinfo" class="details">
+				<b>DHTML:</b>Dynamic HTML or DHTML refers to a combination of regular HTML (Hypertext Markup Language) and various programming languages to 
+				increase a web page's interactivity.
+			</p>
+            <p id="PHPinfo" class="details">
+				<b>PHP:</b> PHP. Stands for "Hypertext Preprocessor." (It is a recursive acronym, if you can understand what that means.) PHP is an HTML-embedded
+				Web scripting language. This means PHP code can be inserted into the HTML of a Web page. ... This make PHP pages secure enough to access databases 
+				and other secure information.
+			</p>
+            <p id="ASP.ASPNETinfo" class="details">
+				<b>ASP & ASP.NET:</b> Search ResultsFeatured snippet from the web 
+				ASP.NET is an open-source server-side web-application framework designed for web development to produce dynamic web pages developed by Microsoft to allow programmers 
+				to build dynamic web sites, applications and services.
+			</p>
+            <p id="JSPinfo" class="details">
+			<b>JSP:</b>JavaServer Pages (JSP) is a collection of technologies that helps software developers create dynamically generated web pages based on
+			HTML, XML, SOAP, or other document types.
+			
+			</p>
+            <p id="Bootstrapinfo" class="details">
+			<b>Bootstrap:</b> Bootstrapping describes a process that automatically loads and executes commands.
+			</p>
+            <p id="MySQLinfo" class="details">
+			<b>MySQL:</b> MySQL is an Oracle-backed open source relational database management system (RDBMS) based on Structured Query Language (SQL).
+			</p>
+            <p id="HTTP(S)info" class="details">
+			<b>HTTP:</b>HTTP means HyperText Transfer Protocol. HTTP is the underlying protocol used by the World Wide Web and this protocol defines how messages are formatted and 
+			transmitted, and what actions Web servers and 
+			browsers should take in response to various commands.
+			</p>
+            <p id="UDPinfo" class="details">
+			<b>UDP:</b> User Datagram Protocol (UDP) is part of the Internet Protocol suite used by programs running on different computers on a network. 
+			UDP is used to send short messages called datagrams but overall, it is an unreliable, connectionless protocol.
+			</p>
+            <p id="TCPinfo" class="details">
+				<b>TCP:</b> TCP (Transmission Control Protocol) is a standard that defines how to establish and maintain a network conversation through which application 
+				programs can exchange data.
+			</p>
             <p id="URIinfo" class="details">
                 A string of characters that identify
                 an internet resource.
@@ -206,7 +326,7 @@
                 <li><a href="#structuralTags">Structural Tags</a></li>
             </ul>
 
-            <a href="#index">Return to the Top</a>
+            
 
         </div>
         <div id="skeletalTags" class="navigation">
@@ -222,7 +342,7 @@
             <p id="HTMLtag" class="details">
                 HTML Tag: Provides the root of an HTML document
             </p>
-            <p id="Headtag" class="details" ><img src="/ProjectPictures/HeadTagEx.png">
+            <p id="Headtag" class="details" >
                 <b>Head Tag:</b> provides information about the 
                 html document. Tags such as title,style, and link
                 are stored here.
@@ -254,7 +374,7 @@
                 <li><a href="#Addresstag">Address Tag</a></li>
                 <li><a href="#Pretag">Pre tag</a></li>
             </ul>
-            <a href="#index">Return to the Top</a>
+            
         </div>
         <div class="content">
             <p id="Ptag" class="details">
@@ -298,7 +418,7 @@
                 <li><a href="#Spantag">Span Tag</a></li>
                 <li><a href="#Brtag">Br Tag</a></li>
             </ul>
-            <a href="#index">Return to the Top</a>
+            
         </div>
         <div class="content">
             <p id="Emtag" class="details">
@@ -392,6 +512,7 @@
                 <b>Dd Tag:</b> Provides the description
                 of the terms within a description list.
             </p>
+            <a href="index">Return to the Top</a>
         </div>
 
         <div id="structuralTags" class="navigation">
@@ -432,38 +553,108 @@
             </ul>
         </div>
         <div class="content">
-            <p id="Headertag" class="details">About XML</p>
-            <p id="Footertag" class="details">About XML</p>
-            <p id="Navtag" class="details">About XML</p>
-            <p id="Articletag" class="details">About XML</p>
-            <p id="Maintag" class="details">About XML</p>
-            <p id="Asidetag" class="details">About XML</p>
-            <p id="Hrtag" class="details">About XML</p>
-            <p id="Atag" class="details">About XML</p>
-            <p id="Linktag" class="details">About XML</p>
-            <p id="Imgtag" class="details">About XML</p>
-            <p id="Figuretag" class="details">About XML</p>
-            <p id="FigCaptiontag" class="details">About XML</p>
-            <p id="Videotag" class="details">About XML</p>
-            <p id="Audiotag" class="details">About XML</p>
-            <p id="Objecttag" class="details">About XML</p>
-            <p id="Paramtag" class="details">About XML</p>
-            <p id="Embedtag" class="details">About XML</p>
-            <p id="Tabletag" class="details">About XML</p>
-            <p id="Trtag" class="details">About XML</p>
-            <p id="Thtag" class="details">About XML</p>
-            <p id="Tdtag" class="details">About XML</p>
-            <p id="Captiontag" class="details">About XML</p>
-            <p id="Theadtag" class="details">About XML</p>
-            <p id="Tbodytag" class="details">About XML</p>
-            <p id="ColGrouptag" class="details">About XML</p>
-            <p id="Coltag" class="details">About XML</p>
-            <p id="Tfoottag" class="details">About XML</p>
-            <p id="Styletag" class="details">About XML</p>
-            <p id="Scripttag" class="details">About XML</p>
-            <p id="Canvastag" class="details">About XML</p>
-            <p id="SVGtag" class="details">About XML</p>
-            <a href="index">Return to the Top</a>
+            <p id="Headertag" class="details">
+				<b>Header tag:</b> The header tag element represents a container for introductory content or a set of navigational links.
+			</p>
+            <p id="Footertag" class="details">
+				<b>Footer tag:</b> The footer tag defines a footer for a document or section.
+			</p>
+            <p id="Navtag" class="details">
+				<b>Nav tag:</b> The Nav tag defines a set of navigation links.
+			</p>
+            <p id="Articletag" class="details">
+				<b>Article tag:</b> The article tag specifies independent, self-contained content.
+			</p>
+            <p id="Maintag" class="details">
+				<b>Main tag:</b> The main tag specifies the main content of a document.
+			</p>
+            <p id="Asidetag" class="details">
+				<b>Aside tag:</b>The aside tag defines some content aside from the content it is placed in.
+			</p>
+            <p id="Hrtag" class="details">
+				<b>Hr tag:</b> The hr tag defines a thematic break in an HTML page.
+			</p>
+            <p id="Atag" class="details">
+				<b>A tag:</b> The a tag defines a hyperlink, which is used to link from one page to another.
+			</p>
+            <p id="Linktag" class="details">
+				<b>Link tag:</b> The link tag defines a link between a document and an external resource and is used to link to external style sheets.
+			</p>
+            <p id="Imgtag" class="details">
+				<b>Img tag:</b> The img tag defines an image in an HTML page and it has two required attributes: src and alt.
+			</p>
+            <p id="Figuretag" class="details">
+				<b>Figure tag:</b> The figure tag specifies self-contained content, like illustrations, diagrams, photos, code listings, etc.
+			</p>
+            <p id="FigCaptiontag" class="details">
+				<b>FigCaption tag:</b> The figcaption tag defines a caption for a figure element.
+			</p>
+            <p id="Videotag" class="details">
+				<b>Video tag:</b> The video tag specifies video, such as a movie clip or other video streams.
+			</p>
+            <p id="Audiotag" class="details">
+				<b>Audio tag:</b> The audio tag defines sound, such as music or other audio streams.
+			</p>
+            <p id="Objecttag" class="details">
+				<b>Object tag:</b> The object tag defines an embedded object within an HTML document. Use this element to embed multimedia
+				(like audio, video, Java applets, ActiveX, PDF, and Flash) in your web pages.
+			</p>
+            <p id="Paramtag" class="details">
+				<b>Param tag:</b> The param tag is used to define parameters for plugins embedded with an object element.
+			</p>
+            <p id="Embedtag" class="details">
+				<b>Embed tag:</b> The embed  tag defines a container for an external application or interactive content (a plug-in).
+			</p>
+            <p id="Tabletag" class="details">
+				<b>Table tag:</b> The table tag defines an HTML table.
+			</p>
+            <p id="Trtag" class="details">
+				<b>Tr tag:</b> tag defines an HTML table.
+			</p>
+            <p id="Thtag" class="details">
+				<b>Th tag:</b>The th tag defines a header cell in an HTML table.
+			</p>
+            <p id="Tdtag" class="details">
+				<b>Td Tag:</b> The td tag defines a standard cell in an HTML table.
+			</p>
+            <p id="Captiontag" class="details">
+				<b>Caption Tag:</b> The caption tag defines a table caption.
+			</p>
+            <p id="Theadtag" class="details">
+				<b>Thead Tag:</b> The thead tag is used to group header content in an HTML table.
+			</p>
+            <p id="Tbodytag" class="details">
+				<b>Tbody tag:</b> The tbody tag is used to group the body content in an HTML table.
+			</p>
+            <p id="ColGrouptag" class="details">
+				<b>ColGroup tag:</b> The ColGroup is a tag that specifies a group of one or more columns in a table for formatting.
+			</p>
+            <p id="Coltag" class="details">
+				<b>Col tag:</b> The col tag specifies column properties for each column within a colgroup element.
+			</p>
+            <p id="Tfoottag" class="details">
+				<b>T foot tag:</b> The t foot tag is used to group footer content in an HTML table.
+			</p>
+            <p id="Styletag" class="details">
+				<b>Styletag:</b> The styletag is a inline tag that specifies certain styles for the web page.
+			</p>
+            <p id="Scripttag" class="details">
+				<b>Script tag:</b> The script tag is used to define a client-side script (JavaScript).
+			</p>
+            <p id="Canvastag" class="details">
+				<b>Canvas tag:</b> The Canvas tag is used to draw graphics, on the fly, via scripting (usually JavaScript).
+			</p>
+            <p id="SVGtag" class="details">
+				<b>SVG tag</b> The SVG  tag defines a container for SVG graphics.
+			</p>
+            <a href="#index">Return to the Top</a>
         </div>
     </body>
+    <footer class="navigation">
+        Sources:
+        <b>
+            http://w3schools.com/<br>
+            http://w3schools.sinsixx.com/
+        </b>
+    </footer>
 </html>
